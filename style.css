@@ -1,0 +1,37 @@
+.navbar-brand img{
+  height: 8rem;
+}
+
+.svg-inline--fa {
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+.social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 4rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 20%;
+}
+
+.social:hover{
+  color:lightskyblue!important;
+}
+
+.social-icons{
+  padding-top: 2rem;
+}
+
+.lead{
+  padding-top: 2rem;
+}
+
+@media (min-width: 300px){
+  section.resume-section{
+    min-height:100vh;
+  }
+}
